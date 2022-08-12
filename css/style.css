@@ -106,7 +106,7 @@ a:hover {
 }
 
 .card {
-  max-width: 20rem;
+  max-width: 22rem;
   border-radius: 3%;
 }
 
@@ -233,7 +233,7 @@ footer p {
 }
 
 .article {
-  width: 45rem;
+  width: 100%;
   position: relative;
   box-shadow: .2rem .2rem .5rem var(--font-dark);
 }
