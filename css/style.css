@@ -434,4 +434,15 @@ footer p {
     grid-template-columns: 1fr;
   }
 
+  .article {
+    width: 38rem;
+  }
+
+  /* About Us Page */
+
+  .member {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
 }
