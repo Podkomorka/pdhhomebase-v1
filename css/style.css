@@ -16,6 +16,8 @@
           Articles Page
           About Us Page
 
+        Media Queries
+
   ============================
 */
 
@@ -42,12 +44,17 @@
   margin: 0;
 }
 
+html {
+  display: flex;
+  justify-content: center;
+}
+
 body {
   font-size: 1.6rem;
   font-family: var(--font-family);
   color: var(--font-light);
   max-width: 900px;
-  margin: auto;
+  margin: 0 2rem;
 }
 
 
@@ -127,7 +134,7 @@ header {
 }
 
 header img {
-  max-width: 30%;
+  max-width: 30rem;
   margin: 2rem 0;
 }
 
@@ -161,7 +168,7 @@ footer p {
 /* ----- Home Page ----- */
 
 .intro div {
-  max-width: 70%;
+  max-width: 80%;
   margin: auto;
   padding-top: 4rem;
 }
@@ -180,7 +187,7 @@ footer p {
 }
 
 .reason {
-  max-width: 30%;
+  max-width: 25rem;
 }
 
 .join div {
@@ -195,7 +202,7 @@ footer p {
 /* ----- Rules Page ----- */
 
 .rules {
-  max-width: 50%;
+  max-width: 60rem;
   margin: 0 auto;
 }
 
@@ -233,7 +240,7 @@ footer p {
 }
 
 .article {
-  width: 100%;
+  width: 40rem;
   position: relative;
   box-shadow: .2rem .2rem .5rem var(--font-dark);
 }
@@ -368,4 +375,63 @@ footer p {
   font-size: 1.6rem;
   color: var(--primary-color);
   margin-bottom: 3rem;
+}
+
+/* ========== Media Queries ========== */
+
+@media (max-width: 850px) {
+  
+  /* Global */
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  header nav {
+    flex-wrap: wrap;
+  }
+
+  header a {
+    font-size: 3rem;
+    flex: 1 1 450px;
+    margin: 0.8rem;
+  }
+
+  /* Home Page */
+
+  .reasons {
+    flex-wrap: wrap;
+  }
+
+  .reason {
+    margin-bottom: 2rem;
+  }
+
+  /* Rules Page */
+
+  .rule ul {
+    margin: 2rem;
+  }
+
+  /* FAQ Page */
+
+  .faq {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .faq div {
+    flex: 1 1 350px;
+  }
+
+  .faq .faq__text {
+    margin-bottom: 4rem;
+  }
+
+  /* Articles Page */
+
+  .articles {
+    grid-template-columns: 1fr;
+  }
+
 }
