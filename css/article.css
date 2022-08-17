@@ -18,7 +18,8 @@ h3 {
   text-align: center;
 }
 
-p {
+p,
+ul {
   margin-bottom: 3rem;
 }
 
@@ -36,11 +37,11 @@ p {
   margin-right: 1rem;
 }
 
-.body {
+body {
   line-height: 1.5;
 }
 
-.body p {
+body p {
   font-family: sans-serif;
 }
 
@@ -52,4 +53,8 @@ p {
   color: white;
   background-color: var(--primary-color);
   border-radius: 2rem;
+}
+
+.indent {
+  margin-left: 5rem;
 }
