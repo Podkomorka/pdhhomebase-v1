@@ -260,6 +260,7 @@ footer p {
 .article__details {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .article__author-date {
@@ -275,6 +276,7 @@ footer p {
 
 .article__categories {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .article__category {
@@ -444,6 +446,17 @@ footer p {
   .member {
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  @media (max-width: 440px) {
+    
+    .articles {
+      gap: 0;
+    }
+    
+    .article {
+      transform: scale(0.8);
+    }
   }
 
 }

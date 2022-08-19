@@ -37,6 +37,10 @@ ul {
   margin-right: 1rem;
 }
 
+.categories {
+  display: inline-block;
+}
+
 body {
   line-height: 1.5;
 }
