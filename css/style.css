@@ -228,6 +228,7 @@ footer p {
 
 .faq .faq__text {
   text-align: left;
+  line-height: 3rem;
 }
 
 /* ----- Articles Page ----- */
@@ -384,7 +385,7 @@ footer p {
 
 @media (max-width: 850px) {
   
-  /* Global */
+  /* --- Global --- */
 
   h1 {
     font-size: 5rem;
@@ -400,7 +401,8 @@ footer p {
     margin: 0.8rem;
   }
 
-  /* Home Page */
+
+  /* --- Home Page --- */
 
   .reasons {
     flex-wrap: wrap;
@@ -410,13 +412,15 @@ footer p {
     margin-bottom: 2rem;
   }
 
-  /* Rules Page */
+
+  /* --- Rules Page --- */
 
   .rule ul {
     margin: 2rem;
   }
 
-  /* FAQ Page */
+
+  /* --- FAQ Page --- */
 
   .faq {
     flex-wrap: wrap;
@@ -431,7 +435,8 @@ footer p {
     margin-bottom: 4rem;
   }
 
-  /* Articles Page */
+
+  /* --- Articles Page --- */
 
   .articles {
     grid-template-columns: 1fr;
@@ -441,21 +446,39 @@ footer p {
     max-width: 40rem;
   }
 
-  /* About Us Page */
+
+  /* --- About Us Page --- */
 
   .member {
     flex-wrap: wrap;
     justify-content: center;
   }
 
+
   @media (max-width: 440px) {
     
+    /* --- FAQ Page --- */
+
+    .faq {
+      transform: scale(0.9);
+    }
+
+
+    /* --- Articles Page --- */
+
     .articles {
       gap: 0;
     }
     
+    /* Scale is SO COOL it helped make a whole article card the right size on mobile*/
     .article {
       transform: scale(0.8);
+    }
+
+    /* --- About Us Page --- */
+
+    .member {
+      transform: scale(0.9);
     }
   }
 
