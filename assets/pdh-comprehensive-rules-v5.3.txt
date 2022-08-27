@@ -92,9 +92,7 @@ Example: Aswan Jaguar is a card which only has an oversized physical printing. I
 Example: The learn mechanic (as on First Day of Class) can successfully discard and draw, but trying to bring a lesson into the game from outside the game doesn’t function in Pauper EDH because lessons are traditional cards. 
 Example: The venture into the dungeon mechanic (as on Ranger’s Hawk) functions in Pauper EDH because Dungeons are nontraditional cards (see rule 309.1.).
 
-**906.12. A card is of a certain rarity if it has that rarity in any Magic set or product, including Magic: The Gathering Online and Magic: The Gathering Arena. This also includes promo cards.
-Example: Hada Freeblade is considered to be of common rarity because it is a common in Magic Online Promo set, so it can be included in the common part of a Pauper EDH deck.
-Hada Freeblade is also considered to be of uncommon rarity because it is an uncommon in Worldwake, so it can be designated as a commander of a Pauper EDH deck.**
+**906.12. If a common version of a particular card was ever released in a Magic: The Gathering paper product or Magic: The Gathering Online, any version of that card is legal in this format. This includes land cards that were printed with both a common set symbol and the L rarity code.
 
 **907. Partner. For the purpose of Pauper EDH games, the following rules replace the entirety of rule section 702.123.**
 
