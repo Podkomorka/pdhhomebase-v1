@@ -19,7 +19,8 @@ h3 {
 }
 
 p,
-ul {
+ul,
+ol {
   margin-bottom: 3rem;
 }
 
@@ -61,7 +62,7 @@ body p {
 }
 
 .indent {
-  margin-left: 5rem;
+  margin-left:5rem;
 }
 
 @media (max-width: 390px) {
