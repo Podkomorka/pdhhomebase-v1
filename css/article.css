@@ -67,10 +67,17 @@ li {
   margin-left:5rem;
 }
 
-@media (max-width: 390px) {
-  #title,
-  h2,
-  p {
-    transform: scale(0.9);
+@media (max-width: 660px) {
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  @media (max-width: 390px) {
+    #title,
+    h2,
+    p {
+      transform: scale(0.9);
+    }
   }
 }
